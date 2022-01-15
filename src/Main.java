@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -33,7 +32,11 @@ public class Main {
 
         }
 
-        System.out.println(result);
+        if (result == number) {
+            System.out.println(number + " sayısı bir Armstrong sayıdır.");
+        } else {
+            System.out.println(number + " sayısı bir Armstrong sayısı değildir.");
+        }
 
 
     }
